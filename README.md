@@ -1,32 +1,36 @@
-# Totality-frontend-challenge
-This project is a modern web application built using a robust technology stack:
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**Core Technologies**:
+## Getting Started
 
-**React** A popular JavaScript library for building user interfaces, providing a declarative approach to UI development.
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-**TypeScript**: A superset of JavaScript that adds static typing, improving code maintainability and catching potential errors early in the development process.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-**Next.js**: A React framework that simplifies server-side rendering (SSR), static site generation (SSG), and client-side routing, enhancing performance and SEO.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
 
-**Material UI**: A popular component library based on Google's Material Design principles, offering a wide range of pre-built, customizable UI elements to streamline development.
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-**Key Features and Benefits:**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Scalability: The project's architecture is designed to accommodate growth and handle increasing user loads.
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Performance: Utilizing Next.js for SSR/SSG and Material UI's optimized components ensures fast page loads and a smooth user experience.
-
-
-Maintainability: TypeScript's static typing and Material UI's well-structured components contribute to clean, organized, and easy-to-maintain code.
-
-
-Accessibility: The project adheres to accessibility standards, making it usable by people with disabilities.
-
-
-Responsiveness: The application is designed to adapt to different screen sizes and devices, providing a consistent experience across platforms.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
